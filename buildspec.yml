@@ -1,13 +1,10 @@
-version: 0.2
-
-phases:
-  build:
-    commands:
-    - echo "This is build phase... Zipping my webpage"
- 
-  post_build:
-    commands:
-    - echo "Deployed to S3"
-artifacts:
-  files:
-    - '**/*'
+{
+"Version": "2012-10-17",
+"Statement": [
+{
+"Sid": "PublicReadGetObject",
+"Effect": "Allow", "Principal": "*",
+"Action": "s3:GetObject",
+"Resource": "arn:aws:s3:::shivaditya-destination/*" }
+]
+}
