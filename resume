@@ -1,0 +1,35 @@
+<html>
+<title>Shivaditya.com</title> 
+<style>
+    body {
+      background-image: url('batman.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>  
+<font color="Black">
+<head>
+<h1 align="center">
+Shivaditya Baghel
+</h1>
+<p><hr><marquee> Hey it's Swayam here, I want to become a Doctor</marquee><hr></p>
+<h2> B.E in Information Technology
+</h2>
+<p>
+From Don Bosco Institute of Technology
+</p>
+<img src= "batman2.jpeg" width= "168" height= "300" align= "right">
+<label for="Hobbies"> My Hobbies: </label>
+<select name="Hobbies" id= "Hobbies">
+<option 
+value="Reading">Reading</option>
+<option 
+value="Filming">Filming</option>
+<option 
+value="Writing">Writing</option>
+<option 
+value="Cooking">Cooking</option>
+
+</head>
+</body>
+</html>
